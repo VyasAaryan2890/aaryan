@@ -135,6 +135,16 @@ ul img {
 .skill .box h1{
     padding: 13px 10px;
 }
+.sk h2::after{
+    content: '';
+    width: 120px;
+    height: 3px;
+    border-radius: 10px;
+    display: block;
+    background-color: cadetblue;
+    margin: 1px auto;
+    margin-bottom: 20px;
+}
 .skill .box p{
     font-size: 22px;
     padding: 0px 10px;
@@ -170,6 +180,95 @@ ul img {
 }
 
 
+/* about */
+
+.about{
+    
+    align-items: center;
+    text-align: center;
+    margin: 70px auto;
+    width: 80%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+.about h1{
+    font-size: 45px;
+    
+}
+.about h1::after{
+    content: '';
+    width: 124px;
+    height: 3px;
+    border-radius: 10px;
+    display: block;
+    background-color: cadetblue;
+    margin: 1px auto;
+    margin-bottom: 20px;
+}
+.about p{
+    font-size: 25px;
+    line-height: 1.4;
+    text-align: left;
+    margin: 1px 40px;
+    color: cadetblue;
+    margin-bottom: 20px;
+}
+
+/* contact us */
+.contact{
+    width: 90%;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px 20px;
+    align-items: center;
+}
+.contact h1{
+    font-size: 45px;
+    margin-bottom: -20px;
+}
+.contact h1::after{
+    content: '';
+    width: 120px;
+    height: 3px;
+    border-radius: 10px;
+    display: block;
+    background-color: cadetblue;
+    margin: 1px auto;
+    margin-bottom: 20px;
+}
+.form{
+    
+    padding: 20px 20px;
+    max-width: 500px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+.contact .form .input{
+    width: 100%;
+    padding: 15px 10px;
+    margin: 10px auto;
+    font-size: 20px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+.contact .form .btn{
+    padding: 10px 60px;
+    background-color: #fff;
+    font-size: 18px;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    cursor: pointer;
+    color: cadetblue;
+    transition: 1s;
+    margin: 14px 0px;
+}
+.contact .form .btn:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: #fff;
+}
 @media(max-width:700px) {
     ul {
         flex: 1;
@@ -277,4 +376,18 @@ ul img {
     cursor: pointer;
     transition: 1s;
 }
+}
+@media(max-width:650px){
+    .about {
+        align-items: center;
+        text-align: center;
+        margin: 36px auto;
+        width: 80%;
+        padding: 2px 10px;
+        box-sizing: border-box;
+        max-height: 217px;
+        overflow: auto;
+        border: 1px solid cadetblue;
+        border-radius: 10px;
+    }
 }
